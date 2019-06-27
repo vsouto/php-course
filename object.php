@@ -4,15 +4,18 @@
 
 <?php
     class Car {
-        function Car() {
-            $this->model = "VW";
+
+        function __construct() {
+            $this->model = "BMW";
         }
+
     }
+
     // create an object
-    $herbie = new Car();
+    $fusca = new Car();
 
     // show object properties
-    echo $herbie->model;
+    echo $fusca->model;
 ?>
 
 </body>
